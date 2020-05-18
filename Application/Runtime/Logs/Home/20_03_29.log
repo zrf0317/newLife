@@ -1,0 +1,31 @@
+[ 2020-03-29T23:36:19+08:00 ] ::1 /newLife/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004043s ]
+SQL: SHOW COLUMNS FROM `tb_forum` [ RunTime:0.0359s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `tb_forum`  [ RunTime:0.0003s ]
+SQL: SELECT SUM(pageview) AS tp_sum FROM `tb_note` LIMIT 1   [ RunTime:0.0025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_note` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_note` WHERE ( hot=1 ) LIMIT 0,5   [ RunTime:0.0024s ]
+SQL: SELECT * FROM `tb_note` ORDER BY date desc LIMIT 0,5   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_note` ORDER BY replysum desc LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` ORDER BY pageview desc LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` WHERE ( origin=1 ) LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000637s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000808s ]
+NOTIC: [8] Undefined index: icon C:\wamp\www\newLife\Application\Runtime\Cache\Home\63c81f5b5f7b215605816ff2bde5d1bc.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059662s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005533s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007131s ]
+

@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/HOME/css/bbs.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/HOME/css/blog.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/HOME/css/bootstrap1.css">
+<script src="__PUBLIC__/HOME/js/jquery.min.js" type="text/javascript"></script>
+<script src="__PUBLIC__/HOME/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="__PUBLIC__/HOME/js/plugin.js" type="text/javascript"></script>
+</head>
+<body>
+<div>
+<div style="background:url(__PUBLIC__/HOME/images/head.jpg);background-size: 100%;">
+<div class="head"><div class="nav"><p>{$_SESSION['username']}欢迎来到看百味论坛</p>
+<div class="righthead">
+	<if condition="strtoupper($_SESSION['username']) eq null">
+	<a href="__APP__/Home/Index/loginshow"><img src="__PUBLIC__/Home/images/icon/0.jpg" width="40px" height="40px" title="点击登录"/></a><a href="__APP__/Home/Index/registershow">注册</a><a href="__APP__/Home/Index/loginshow"><img src="__PUBLIC__/HOME/images/qqlogin.jpg" width="22px" height="10px">QQ登录</a><a href="__APP__/Home/Index/registershow"><img src="__PUBLIC__/HOME/images/timg.jpg" width="22px" height="10px"/>微博登陆</a><else />
+	<a href="__APP__/Home/Index/personalshow"><img src="__PUBLIC__{$_SESSION['icon']}" width="40px" height="40px" title="进入个人页面"/></a><a href="__APP__/Home/Index/exitlogin">注销</a></if></div>
+</div>
+</div>
+<div class="bbsheader"><form class="searchform" action="__APP__/Home/Note/searchnote"><a href="__APP__/Home/Index/index"><img src="__PUBLIC__/HOME/images/logo.jpg"  class="logo"></a><input name="notetitle" class="searchtext" type="text" id="serch" onfocus="bc()" onblur="lk()" placeholder="搜索帖子"><button type="submit" class="search-submit" /></form></div>
+
+</div></div>
+  <div class="content">
+		<ul class="nav nav-tabs" role="tablist">
+			<li class="active"><a href="#home" role="tab" data-toggle="tab">搜索如下</a></li>
+	  </ul>
+	  <volist name="list" id="list">
+	  <div class="tab-content" style="margin: 50px;">
+		  <div class="tab-pane active" id="home">
+			  <div style="height: 100px;">
+				  <div>
+				  <p class="text"><a href="__APP__/Home/Note/noteshow/id/{$list.id}">{$list.title}</a>&nbsp;&nbsp;&nbsp;&nbsp;</p><p>发布日期{$list.date}</p>
+			     </div>
+				  <div class="qq">
+				  	<td >{$list.content}</td>
+				  </div>
+				  <div style="float: right;font-size:10px;margin-top: 8px;"><td>作者：{$list.author}</td>&nbsp;&nbsp;<td>评论量：{$list.replysum}</td>&nbsp;&nbsp;<td>浏览量：{$list.pageview}</td></div>
+			  </div>
+			  
+		  </div>	
+	</div><hr style="border-bottom:1px dotted #717171"></volist>
+	</div>
+</body>
+</html>

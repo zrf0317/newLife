@@ -1,0 +1,2310 @@
+[ 2020-01-03T00:00:50+08:00 ] ::1 /newLife/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002181s ]
+SQL: SHOW COLUMNS FROM `tb_forum` [ RunTime:0.0065s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `tb_forum`  [ RunTime:0.0003s ]
+SQL: SELECT SUM(pageview) AS tp_sum FROM `tb_note` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_note` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_note` WHERE ( hot=1 ) LIMIT 0,5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_note` ORDER BY date desc LIMIT 0,5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_note` ORDER BY replysum desc LIMIT 0,5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_note` ORDER BY pageview desc LIMIT 0,5   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_note` WHERE ( origin=1 ) LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032726s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032858s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001910s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003874s ]
+
+[ 2020-01-03T00:06:37+08:00 ] ::1 /newLife/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001407s ]
+SQL: SHOW COLUMNS FROM `tb_forum` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `tb_forum`  [ RunTime:0.0003s ]
+SQL: SELECT SUM(pageview) AS tp_sum FROM `tb_note` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_note` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_note` WHERE ( hot=1 ) LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` ORDER BY date desc LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` ORDER BY replysum desc LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` ORDER BY pageview desc LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` WHERE ( origin=1 ) LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000338s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023147s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023342s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001008s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001881s ]
+
+[ 2020-01-03T00:06:38+08:00 ] ::1 /newLife/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002206s ]
+SQL: SHOW COLUMNS FROM `tb_forum` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `tb_forum`  [ RunTime:0.0003s ]
+SQL: SELECT SUM(pageview) AS tp_sum FROM `tb_note` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_note` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_note` WHERE ( hot=1 ) LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` ORDER BY date desc LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` ORDER BY replysum desc LIMIT 0,5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_note` ORDER BY pageview desc LIMIT 0,5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_note` WHERE ( origin=1 ) LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025630s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025767s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006931s ]
+
+[ 2020-01-03T00:06:38+08:00 ] ::1 /newLife/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002178s ]
+SQL: SHOW COLUMNS FROM `tb_forum` [ RunTime:0.0072s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `tb_forum`  [ RunTime:0.0003s ]
+SQL: SELECT SUM(pageview) AS tp_sum FROM `tb_note` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_note` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_note` WHERE ( hot=1 ) LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` ORDER BY date desc LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` ORDER BY replysum desc LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` ORDER BY pageview desc LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` WHERE ( origin=1 ) LIMIT 0,5   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025299s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025429s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001952s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002043s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003907s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004068s ]
+
+[ 2020-01-03T00:06:39+08:00 ] ::1 /newLife/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002206s ]
+SQL: SHOW COLUMNS FROM `tb_forum` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `tb_forum`  [ RunTime:0.0003s ]
+SQL: SELECT SUM(pageview) AS tp_sum FROM `tb_note` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_note` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` WHERE ( hot=1 ) LIMIT 0,5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_note` ORDER BY date desc LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` ORDER BY replysum desc LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` ORDER BY pageview desc LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` WHERE ( origin=1 ) LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000272s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025341s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004463s ]
+
+[ 2020-01-03T00:06:39+08:00 ] ::1 /newLife/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+SQL: SHOW COLUMNS FROM `tb_forum` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `tb_forum`  [ RunTime:0.0004s ]
+SQL: SELECT SUM(pageview) AS tp_sum FROM `tb_note` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_note` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` WHERE ( hot=1 ) LIMIT 0,5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_note` ORDER BY date desc LIMIT 0,5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_note` ORDER BY replysum desc LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` ORDER BY pageview desc LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` WHERE ( origin=1 ) LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022553s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001058s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002720s ]
+
+[ 2020-01-03T00:06:39+08:00 ] ::1 /newLife/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000875s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+SQL: SHOW COLUMNS FROM `tb_forum` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `tb_forum`  [ RunTime:0.0003s ]
+SQL: SELECT SUM(pageview) AS tp_sum FROM `tb_note` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_note` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_note` WHERE ( hot=1 ) LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` ORDER BY date desc LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` ORDER BY replysum desc LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` ORDER BY pageview desc LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` WHERE ( origin=1 ) LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022772s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000941s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001778s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001921s ]
+
+[ 2020-01-03T00:06:58+08:00 ] ::1 /newLife/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+SQL: SHOW COLUMNS FROM `tb_forum` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `tb_forum`  [ RunTime:0.0003s ]
+SQL: SELECT SUM(pageview) AS tp_sum FROM `tb_note` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_note` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_note` WHERE ( hot=1 ) LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` ORDER BY date desc LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` ORDER BY replysum desc LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` ORDER BY pageview desc LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` WHERE ( origin=1 ) LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021959s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022086s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000944s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001644s ]
+
+[ 2020-01-03T00:07:59+08:00 ] ::1 /newLife/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002207s ]
+SQL: SHOW COLUMNS FROM `tb_forum` [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_forum`  [ RunTime:0.0003s ]
+SQL: SELECT SUM(pageview) AS tp_sum FROM `tb_note` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_note` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_note` WHERE ( hot=1 ) LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` ORDER BY date desc LIMIT 0,5   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_note` ORDER BY replysum desc LIMIT 0,5   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_note` ORDER BY pageview desc LIMIT 0,5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_note` WHERE ( origin=1 ) LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024856s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024981s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001893s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001984s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005691s ]
+
+[ 2020-01-03T00:08:17+08:00 ] ::1 /newLife/index.php/Home/Index/exitlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000964s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002249s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012100s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012213s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002125s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002219s ]
+
+[ 2020-01-03T00:08:19+08:00 ] ::1 /newLife/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002135s ]
+SQL: SHOW COLUMNS FROM `tb_forum` [ RunTime:0.0065s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_forum`  [ RunTime:0.0004s ]
+SQL: SELECT SUM(pageview) AS tp_sum FROM `tb_note` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_note` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_note` WHERE ( hot=1 ) LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` ORDER BY date desc LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` ORDER BY replysum desc LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` ORDER BY pageview desc LIMIT 0,5   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_note` WHERE ( origin=1 ) LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+NOTIC: [8] Undefined index: username C:\wamp\www\newLife\Application\Runtime\Cache\Home\63c81f5b5f7b215605816ff2bde5d1bc.php 第 98 行.
+NOTIC: [8] Undefined index: username C:\wamp\www\newLife\Application\Runtime\Cache\Home\63c81f5b5f7b215605816ff2bde5d1bc.php 第 106 行.
+NOTIC: [8] Undefined index: username C:\wamp\www\newLife\Application\Runtime\Cache\Home\63c81f5b5f7b215605816ff2bde5d1bc.php 第 111 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025093s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025209s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001932s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003880s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003988s ]
+
+[ 2020-01-03T00:08:21+08:00 ] ::1 /newLife/index.php/Home/Index/registershow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000853s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002443s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013447s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013577s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002014s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002220s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002433s ]
+
+[ 2020-01-03T00:08:21+08:00 ] ::1 /newLife/index.php/Home/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000938s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004911s ]
+NOTIC: [8] Use of undefined constant fontSize - assumed 'fontSize' C:\wamp\www\newLife\Application\Home\Controller\IndexController.class.php 第 87 行.
+NOTIC: [8] Use of undefined constant length - assumed 'length' C:\wamp\www\newLife\Application\Home\Controller\IndexController.class.php 第 88 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003164s ]
+
+[ 2020-01-03T00:08:27+08:00 ] ::1 /newLife/index.php/Home/Index/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001180s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `tb_user` WHERE `username` = '' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\newLife\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp\www\newLife\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016155s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016303s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000962s ]
+
+[ 2020-01-03T00:08:29+08:00 ] ::1 /newLife/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+SQL: SHOW COLUMNS FROM `tb_forum` [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `tb_forum`  [ RunTime:0.0003s ]
+SQL: SELECT SUM(pageview) AS tp_sum FROM `tb_note` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_note` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` WHERE ( hot=1 ) LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` ORDER BY date desc LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` ORDER BY replysum desc LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` ORDER BY pageview desc LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` WHERE ( origin=1 ) LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000302s ]
+NOTIC: [8] Undefined index: username C:\wamp\www\newLife\Application\Runtime\Cache\Home\63c81f5b5f7b215605816ff2bde5d1bc.php 第 98 行.
+NOTIC: [8] Undefined index: username C:\wamp\www\newLife\Application\Runtime\Cache\Home\63c81f5b5f7b215605816ff2bde5d1bc.php 第 106 行.
+NOTIC: [8] Undefined index: username C:\wamp\www\newLife\Application\Runtime\Cache\Home\63c81f5b5f7b215605816ff2bde5d1bc.php 第 111 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021925s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022039s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001518s ]
+
+[ 2020-01-03T00:08:40+08:00 ] ::1 /newLife/index.php/Home/Index/registershow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002178s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014397s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001910s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002527s ]
+
+[ 2020-01-03T00:08:40+08:00 ] ::1 /newLife/index.php/Home/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002637s ]
+NOTIC: [8] Use of undefined constant fontSize - assumed 'fontSize' C:\wamp\www\newLife\Application\Home\Controller\IndexController.class.php 第 87 行.
+NOTIC: [8] Use of undefined constant length - assumed 'length' C:\wamp\www\newLife\Application\Home\Controller\IndexController.class.php 第 88 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003237s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003618s ]
+
+[ 2020-01-03T00:08:47+08:00 ] ::1 /newLife/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001429s ]
+SQL: SHOW COLUMNS FROM `tb_forum` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `tb_forum`  [ RunTime:0.0003s ]
+SQL: SELECT SUM(pageview) AS tp_sum FROM `tb_note` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_note` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_note` WHERE ( hot=1 ) LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` ORDER BY date desc LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` ORDER BY replysum desc LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` ORDER BY pageview desc LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` WHERE ( origin=1 ) LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+NOTIC: [8] Undefined index: username C:\wamp\www\newLife\Application\Runtime\Cache\Home\63c81f5b5f7b215605816ff2bde5d1bc.php 第 98 行.
+NOTIC: [8] Undefined index: username C:\wamp\www\newLife\Application\Runtime\Cache\Home\63c81f5b5f7b215605816ff2bde5d1bc.php 第 106 行.
+NOTIC: [8] Undefined index: username C:\wamp\www\newLife\Application\Runtime\Cache\Home\63c81f5b5f7b215605816ff2bde5d1bc.php 第 111 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024653s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001962s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002184s ]
+
+[ 2020-01-03T14:46:32+08:00 ] ::1 /newLife/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002737s ]
+SQL: SHOW COLUMNS FROM `tb_forum` [ RunTime:0.0123s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `tb_forum`  [ RunTime:0.0004s ]
+SQL: SELECT SUM(pageview) AS tp_sum FROM `tb_note` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_note` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_note` WHERE ( hot=1 ) LIMIT 0,5   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_note` ORDER BY date desc LIMIT 0,5   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_note` ORDER BY replysum desc LIMIT 0,5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_note` ORDER BY pageview desc LIMIT 0,5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_note` WHERE ( origin=1 ) LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002379s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002554s ]
+NOTIC: [8] Undefined index: username C:\wamp\www\newLife\Application\Runtime\Cache\Home\63c81f5b5f7b215605816ff2bde5d1bc.php 第 98 行.
+NOTIC: [8] Undefined index: username C:\wamp\www\newLife\Application\Runtime\Cache\Home\63c81f5b5f7b215605816ff2bde5d1bc.php 第 106 行.
+NOTIC: [8] Undefined index: username C:\wamp\www\newLife\Application\Runtime\Cache\Home\63c81f5b5f7b215605816ff2bde5d1bc.php 第 111 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039597s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001914s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002052s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002843s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002998s ]
+
+[ 2020-01-03T14:49:15+08:00 ] ::1 /newLife/index.php/Home/Index/loginshow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002513s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000376s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001818s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002406s ]
+
+[ 2020-01-03T14:49:21+08:00 ] ::1 /newLife/index.php/Home/Index/loginshow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001791s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000357s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015711s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001628s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001850s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002581s ]
+
+[ 2020-01-03T14:49:29+08:00 ] ::1 /newLife/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002433s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `tb_user` WHERE `username` = 'Rumi' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010832s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010974s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000950s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000997s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001110s ]
+
+[ 2020-01-03T14:49:30+08:00 ] ::1 /newLife/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001636s ]
+SQL: SHOW COLUMNS FROM `tb_forum` [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `tb_forum`  [ RunTime:0.0004s ]
+SQL: SELECT SUM(pageview) AS tp_sum FROM `tb_note` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_note` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` WHERE ( hot=1 ) LIMIT 0,5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_note` ORDER BY date desc LIMIT 0,5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_note` ORDER BY replysum desc LIMIT 0,5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_note` ORDER BY pageview desc LIMIT 0,5   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_note` WHERE ( origin=1 ) LIMIT 0,5   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000295s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024993s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001911s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002113s ]
+
+[ 2020-01-03T14:49:32+08:00 ] ::1 /newLife/index.php/Home/Index/personalshow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `tb_user` WHERE ( UID=18 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_note` WHERE ( author='Rumi' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017633s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017779s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002301s ]
+
+[ 2020-01-03T14:49:32+08:00 ] ::1 /newLife/index.php/Home/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001096s ]
+NOTIC: [8] Use of undefined constant fontSize - assumed 'fontSize' C:\wamp\www\newLife\Application\Home\Controller\IndexController.class.php 第 87 行.
+NOTIC: [8] Use of undefined constant length - assumed 'length' C:\wamp\www\newLife\Application\Home\Controller\IndexController.class.php 第 88 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001280s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001440s ]
+
+[ 2020-01-03T14:49:49+08:00 ] ::1 /newLife/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001136s ]
+SQL: SHOW COLUMNS FROM `tb_forum` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `tb_forum`  [ RunTime:0.0004s ]
+SQL: SELECT SUM(pageview) AS tp_sum FROM `tb_note` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_note` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_note` WHERE ( hot=1 ) LIMIT 0,5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_note` ORDER BY date desc LIMIT 0,5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_note` ORDER BY replysum desc LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` ORDER BY pageview desc LIMIT 0,5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_note` WHERE ( origin=1 ) LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000428s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025950s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001564s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001918s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002100s ]
+
+[ 2020-01-03T14:51:55+08:00 ] ::1 /newLife/index.php/Home/Index/personalshow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000962s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002321s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `tb_user` WHERE ( UID=18 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_note` WHERE ( author='Rumi' )  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000433s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039053s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002753s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007090s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008334s ]
+
+[ 2020-01-03T14:51:55+08:00 ] ::1 /newLife/index.php/Home/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002926s ]
+NOTIC: [8] Use of undefined constant fontSize - assumed 'fontSize' C:\wamp\www\newLife\Application\Home\Controller\IndexController.class.php 第 87 行.
+NOTIC: [8] Use of undefined constant length - assumed 'length' C:\wamp\www\newLife\Application\Home\Controller\IndexController.class.php 第 88 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001921s ]
+
+[ 2020-01-03T14:59:46+08:00 ] ::1 /newLife/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003739s ]
+SQL: SHOW COLUMNS FROM `tb_forum` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `tb_forum`  [ RunTime:0.0004s ]
+SQL: SELECT SUM(pageview) AS tp_sum FROM `tb_note` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_note` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_note` WHERE ( hot=1 ) LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` ORDER BY date desc LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` ORDER BY replysum desc LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` ORDER BY pageview desc LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` WHERE ( origin=1 ) LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000258s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000454s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029567s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029735s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002517s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002074s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002589s ]
+
+[ 2020-01-03T15:00:11+08:00 ] ::1 /newLife/index.php/Home/Note/forumshow/forumID/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002299s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `tb_note` WHERE `forumID` = 1 AND `top` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_note` WHERE `forumID` = 1 AND `top` = 0  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021756s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021933s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001769s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002504s ]
+
+[ 2020-01-03T15:00:13+08:00 ] ::1 /newLife/index.php/Home/Note/forumshow/forumID/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001120s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `tb_note` WHERE `forumID` = 2 AND `top` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_note` WHERE `forumID` = 2 AND `top` = 0  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017199s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001701s ]
+
+[ 2020-01-03T15:00:16+08:00 ] ::1 /newLife/index.php/Home/Note/forumshow/forumID/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001524s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `tb_note` WHERE `forumID` = 3 AND `top` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_note` WHERE `forumID` = 3 AND `top` = 0  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016694s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001541s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001819s ]
+
+[ 2020-01-03T15:00:18+08:00 ] ::1 /newLife/index.php/Home/Note/noteshow/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001317s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tb_comment` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `tb_comment` WHERE ( noteID='4' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_note` WHERE ( ID=4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `tb_note` SET `author`='Rumi',`title`='女足世界杯玩饥饿营销:场内空荡荡 球迷却买不到票',`content`='2019年女足世界杯小组赛已经全部结束，但在多场小组赛中球场看台出现大面积空位置。而这不仅仅是因为女足比赛对球迷吸引力更弱，还有女足世界杯票务系统方面的问题。国际足联主席因凡蒂诺此前曾宣布，在本届女足世界杯全部52场比赛中，已经有20场比赛的球票全部售完。但随后遭到媒体质疑，而国际足联之后改口称，只有14场比赛的球票全部售完，显然因凡蒂诺主席之前说了谎。
+
+而在球票并未售完的一些比赛中，却有球迷们买不到票。因为女足世界杯网上订票只能使用赞助商VISA的卡来支付，而且票务系统总是显示只有少量余票却有很多啊实打实大苏打',`date`='2019-06-23',`pageview`='90',`replysum`='10',`top`='1',`hot`='1',`origin`='1' WHERE ( ID=4 ) [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tb_user` WHERE ( username='Rumi' ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014609s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014720s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000892s ]
+
+[ 2020-01-03T15:00:25+08:00 ] ::1 /newLife/index.php/Home/Note/searchnote?notetitle=Rumi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001113s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `tb_note` WHERE `title` LIKE '%Rumi%' OR `author` LIKE '%Rumi%'  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015107s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015243s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001496s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001143s ]
+
+[ 2020-01-03T15:00:40+08:00 ] ::1 /newLife/index.php/Home/Note/fabu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001689s ]
+SQL: SHOW COLUMNS FROM `tb_forum` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tb_forum`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013794s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000899s ]
+
+[ 2020-01-03T15:00:43+08:00 ] ::1 /newLife/index.php/Home/Note/fabu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001748s ]
+SQL: SHOW COLUMNS FROM `tb_forum` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `tb_forum`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000378s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019448s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019589s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001403s ]
+
+[ 2020-01-03T15:01:28+08:00 ] ::1 /newLife/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+SQL: SHOW COLUMNS FROM `tb_forum` [ RunTime:0.0072s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `tb_forum`  [ RunTime:0.0005s ]
+SQL: SELECT SUM(pageview) AS tp_sum FROM `tb_note` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_note` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_note` WHERE ( hot=1 ) LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` ORDER BY date desc LIMIT 0,5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_note` ORDER BY replysum desc LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` ORDER BY pageview desc LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` WHERE ( origin=1 ) LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000312s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027099s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002647s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003323s ]
+
+[ 2020-01-03T15:04:50+08:00 ] ::1 /newLife/index.php/Home/Note/forumshow/forumID/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002845s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `tb_note` WHERE `forumID` = 1 AND `top` = 1  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_note` WHERE `forumID` = 1 AND `top` = 0  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020104s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020290s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001727s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001928s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002183s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002336s ]
+
+[ 2020-01-03T15:04:52+08:00 ] ::1 /newLife/index.php/Home/Note/noteshow/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001015s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002011s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `tb_comment` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tb_comment` WHERE ( noteID='1' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_note` WHERE ( ID=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `tb_note` SET `author`='Rumi',`title`='巴西副总统：5G建设不会排除华为 巴西需要它的技术',`content`='【CNMO新闻】虽说华为被美国政府打压，不过还是有很多国家愿意与华为展开合作。近日有外媒报道称，巴西副总统Hamilton Mourao表示巴西政府不会排除华为在该国运营5G移动通信网络。同时这位副总统还声称，巴西政府对中国公司没有任何不信任，巴西需要华为提供的电信技术。',`date`='2019-06-03',`pageview`='39',`replysum`='3',`top`='1',`hot`='1',`origin`='1' WHERE ( ID=1 ) [ RunTime:0.0048s ]
+SQL: SELECT * FROM `tb_user` WHERE ( username='Rumi' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000355s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018489s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018664s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001517s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001815s ]
+
+[ 2020-01-03T15:04:59+08:00 ] ::1 /newLife/index.php/Home/Note/noteshow/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001461s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `tb_comment` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tb_comment` WHERE ( noteID='1' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_note` WHERE ( ID=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `tb_note` SET `author`='Rumi',`title`='巴西副总统：5G建设不会排除华为 巴西需要它的技术',`content`='【CNMO新闻】虽说华为被美国政府打压，不过还是有很多国家愿意与华为展开合作。近日有外媒报道称，巴西副总统Hamilton Mourao表示巴西政府不会排除华为在该国运营5G移动通信网络。同时这位副总统还声称，巴西政府对中国公司没有任何不信任，巴西需要华为提供的电信技术。',`date`='2019-06-03',`pageview`='40',`replysum`='3',`top`='1',`hot`='1',`origin`='1' WHERE ( ID=1 ) [ RunTime:0.0056s ]
+SQL: SELECT * FROM `tb_user` WHERE ( username='Rumi' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000305s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000551s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019530s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001848s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001641s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001830s ]
+
+[ 2020-01-03T15:05:02+08:00 ] ::1 /newLife/index.php/Home/Note/forumshow/forumID/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001172s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `tb_note` WHERE `forumID` = 1 AND `top` = 1  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_note` WHERE `forumID` = 1 AND `top` = 0  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000275s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000642s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027187s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027381s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002426s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002583s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001472s ]
+
+[ 2020-01-03T15:05:03+08:00 ] ::1 /newLife/index.php/Home/Note/noteshow/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001749s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0145s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `tb_comment` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `tb_comment` WHERE ( noteID='3' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_note` WHERE ( ID=3 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `tb_note` SET `author`='Nato',`title`='美墨发表联合声明 墨西哥承诺的条件曝光',`content`='俄罗斯卫星网报道，6月8日经过漫长的双边谈判，美墨两国发表遏制非法移民的联合声明。墨西哥外长形容其为“公平的平衡”。美国国务卿迈克·蓬佩奥指出，该协议包含“一系列共同义务”，将使两国受益。在美国和墨西哥达成移民协议后，双方发布了一份美墨联合声明。声明称，墨西哥已承诺采取前所未有的措施，遏制非法移民，瓦解人口走私组织。该文件允许将寻求庇护者从美国遣返回墨西哥，在墨西哥境内等待裁决“美国将立即在整个南部边境扩大现有移民保护协议的覆盖范围。这意味着那些越过美国南部边境、寻求庇护的人，将很快返回墨西哥，在那里等待',`date`='2019-04-23',`pageview`='8',`replysum`='1',`top`='0',`hot`='1',`origin`='0' WHERE ( ID=3 ) [ RunTime:0.0036s ]
+SQL: SELECT * FROM `tb_user` WHERE ( username='Nato' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022838s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022976s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001693s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001888s ]
+
+[ 2020-01-03T15:05:07+08:00 ] ::1 /newLife/index.php/Home/Note/noteshow/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `tb_comment` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_comment` WHERE ( noteID='2' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_note` WHERE ( ID=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `tb_note` SET `author`='Lili',`title`='普京：美国打压华为被称作数字时代首场科技战争',`content`='当地时间6月7日，出席第23届圣彼得堡国际经济论坛的俄总统普京批评美国打压华为。普京以华为为例称，围绕华为的情况，他们不仅试图对它进行排挤，更想粗暴无礼地把它挤出全球市场，“在某些圈子里，这已经被称作正在到来的数字时代的第一场科技战争”。',`date`='2019-05-01',`pageview`='8',`replysum`='3',`top`='1',`hot`='0',`origin`='0' WHERE ( ID=2 ) [ RunTime:0.0051s ]
+SQL: SELECT * FROM `tb_user` WHERE ( username='Lili' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015711s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000835s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000932s ]
+
+[ 2020-01-03T15:05:09+08:00 ] ::1 /newLife/index.php/Home/Note/noteshow/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001237s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `tb_comment` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `tb_comment` WHERE ( noteID='1' )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_note` WHERE ( ID=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `tb_note` SET `author`='Rumi',`title`='巴西副总统：5G建设不会排除华为 巴西需要它的技术',`content`='【CNMO新闻】虽说华为被美国政府打压，不过还是有很多国家愿意与华为展开合作。近日有外媒报道称，巴西副总统Hamilton Mourao表示巴西政府不会排除华为在该国运营5G移动通信网络。同时这位副总统还声称，巴西政府对中国公司没有任何不信任，巴西需要华为提供的电信技术。',`date`='2019-06-03',`pageview`='41',`replysum`='3',`top`='1',`hot`='1',`origin`='1' WHERE ( ID=1 ) [ RunTime:0.0058s ]
+SQL: SELECT * FROM `tb_user` WHERE ( username='Rumi' ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000421s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023451s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002586s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002779s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002008s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002215s ]
+
+[ 2020-01-03T15:05:59+08:00 ] ::1 /newLife/index.php/Home/Note/noteshow/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001951s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `tb_comment` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `tb_comment` WHERE ( noteID='1' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` WHERE ( ID=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `tb_note` SET `author`='Rumi',`title`='巴西副总统：5G建设不会排除华为 巴西需要它的技术',`content`='【CNMO新闻】虽说华为被美国政府打压，不过还是有很多国家愿意与华为展开合作。近日有外媒报道称，巴西副总统Hamilton Mourao表示巴西政府不会排除华为在该国运营5G移动通信网络。同时这位副总统还声称，巴西政府对中国公司没有任何不信任，巴西需要华为提供的电信技术。',`date`='2019-06-03',`pageview`='42',`replysum`='3',`top`='1',`hot`='1',`origin`='1' WHERE ( ID=1 ) [ RunTime:0.0051s ]
+SQL: SELECT * FROM `tb_user` WHERE ( username='Rumi' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000356s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016446s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016591s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002009s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001676s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001871s ]
+
+[ 2020-01-03T15:06:38+08:00 ] ::1 /newLife/index.php/Home/Note/addreply/noteid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001113s ]
+SQL: SHOW COLUMNS FROM `tb_comment` [ RunTime:0.0059s ]
+SQL: INSERT INTO `tb_comment` (`noteID`,`username`,`content`,`date`) VALUES ('1','Rumi','123132','2020-01-03') [ RunTime:0.0033s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000798s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000887s ]
+
+[ 2020-01-03T15:06:39+08:00 ] ::1 /newLife/index.php/Home/Note/noteshow/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000143s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004720s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0133s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0143s ]
+SQL: SHOW COLUMNS FROM `tb_comment` [ RunTime:0.0144s ]
+SQL: SELECT * FROM `tb_comment` WHERE ( noteID='1' )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_note` WHERE ( ID=1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `tb_note` SET `author`='Rumi',`title`='巴西副总统：5G建设不会排除华为 巴西需要它的技术',`content`='【CNMO新闻】虽说华为被美国政府打压，不过还是有很多国家愿意与华为展开合作。近日有外媒报道称，巴西副总统Hamilton Mourao表示巴西政府不会排除华为在该国运营5G移动通信网络。同时这位副总统还声称，巴西政府对中国公司没有任何不信任，巴西需要华为提供的电信技术。',`date`='2019-06-03',`pageview`='43',`replysum`='3',`top`='1',`hot`='1',`origin`='1' WHERE ( ID=1 ) [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tb_user` WHERE ( username='Rumi' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000309s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000551s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030108s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030363s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002514s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002766s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003504s ]
+
+[ 2020-01-03T15:07:40+08:00 ] ::1 /newLife/index.php/Home/Note/fabu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002833s ]
+SQL: SHOW COLUMNS FROM `tb_forum` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `tb_forum`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001316s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001110s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001202s ]
+
+[ 2020-01-03T15:08:54+08:00 ] ::1 /newLife/index.php/Home/Index/personalshow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002295s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `tb_user` WHERE ( UID=18 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` WHERE ( author='Rumi' )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014092s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000973s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003152s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003342s ]
+
+[ 2020-01-03T15:08:54+08:00 ] ::1 /newLife/index.php/Home/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002290s ]
+NOTIC: [8] Use of undefined constant fontSize - assumed 'fontSize' C:\wamp\www\newLife\Application\Home\Controller\IndexController.class.php 第 87 行.
+NOTIC: [8] Use of undefined constant length - assumed 'length' C:\wamp\www\newLife\Application\Home\Controller\IndexController.class.php 第 88 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001849s ]
+
+[ 2020-01-03T15:12:04+08:00 ] ::1 /newLife/index.php/Home/Note/noteshow/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000878s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002823s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0077s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `tb_comment` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `tb_comment` WHERE ( noteID='1' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_note` WHERE ( ID=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `tb_note` SET `author`='Rumi',`title`='巴西副总统：5G建设不会排除华为 巴西需要它的技术',`content`='【CNMO新闻】虽说华为被美国政府打压，不过还是有很多国家愿意与华为展开合作。近日有外媒报道称，巴西副总统Hamilton Mourao表示巴西政府不会排除华为在该国运营5G移动通信网络。同时这位副总统还声称，巴西政府对中国公司没有任何不信任，巴西需要华为提供的电信技术。',`date`='2019-06-03',`pageview`='44',`replysum`='3',`top`='1',`hot`='1',`origin`='1' WHERE ( ID=1 ) [ RunTime:0.0036s ]
+SQL: SELECT * FROM `tb_user` WHERE ( username='Rumi' ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001984s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002171s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002174s ]
+
+[ 2020-01-03T15:13:18+08:00 ] ::1 /newLife/index.php/Home/Note/noteshow/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001796s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `tb_comment` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `tb_comment` WHERE ( noteID='4' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_note` WHERE ( ID=4 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `tb_note` SET `author`='Rumi',`title`='女足世界杯玩饥饿营销:场内空荡荡 球迷却买不到票',`content`='2019年女足世界杯小组赛已经全部结束，但在多场小组赛中球场看台出现大面积空位置。而这不仅仅是因为女足比赛对球迷吸引力更弱，还有女足世界杯票务系统方面的问题。国际足联主席因凡蒂诺此前曾宣布，在本届女足世界杯全部52场比赛中，已经有20场比赛的球票全部售完。但随后遭到媒体质疑，而国际足联之后改口称，只有14场比赛的球票全部售完，显然因凡蒂诺主席之前说了谎。
+
+而在球票并未售完的一些比赛中，却有球迷们买不到票。因为女足世界杯网上订票只能使用赞助商VISA的卡来支付，而且票务系统总是显示只有少量余票却有很多啊实打实大苏打',`date`='2019-06-23',`pageview`='91',`replysum`='10',`top`='1',`hot`='1',`origin`='1' WHERE ( ID=4 ) [ RunTime:0.0045s ]
+SQL: SELECT * FROM `tb_user` WHERE ( username='Rumi' ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018138s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018310s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001666s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001783s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001491s ]
+
+[ 2020-01-03T15:13:21+08:00 ] ::1 /newLife/index.php/Home/Note/noteshow/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0069s ]
+SQL: SHOW COLUMNS FROM `tb_comment` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `tb_comment` WHERE ( noteID='4' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_note` WHERE ( ID=4 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `tb_note` SET `author`='Rumi',`title`='女足世界杯玩饥饿营销:场内空荡荡 球迷却买不到票',`content`='2019年女足世界杯小组赛已经全部结束，但在多场小组赛中球场看台出现大面积空位置。而这不仅仅是因为女足比赛对球迷吸引力更弱，还有女足世界杯票务系统方面的问题。国际足联主席因凡蒂诺此前曾宣布，在本届女足世界杯全部52场比赛中，已经有20场比赛的球票全部售完。但随后遭到媒体质疑，而国际足联之后改口称，只有14场比赛的球票全部售完，显然因凡蒂诺主席之前说了谎。
+
+而在球票并未售完的一些比赛中，却有球迷们买不到票。因为女足世界杯网上订票只能使用赞助商VISA的卡来支付，而且票务系统总是显示只有少量余票却有很多啊实打实大苏打',`date`='2019-06-23',`pageview`='92',`replysum`='10',`top`='1',`hot`='1',`origin`='1' WHERE ( ID=4 ) [ RunTime:0.0055s ]
+SQL: SELECT * FROM `tb_user` WHERE ( username='Rumi' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000345s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021536s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021698s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002327s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002052s ]
+
+[ 2020-01-03T15:13:28+08:00 ] ::1 /newLife/index.php/Home/Note/addreply/noteid/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+SQL: SHOW COLUMNS FROM `tb_comment` [ RunTime:0.0063s ]
+SQL: INSERT INTO `tb_comment` (`noteID`,`username`,`content`,`date`) VALUES ('4','Rumi','啊啊啊1','2020-01-03') [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012233s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001763s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001991s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002129s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002369s ]
+
+[ 2020-01-03T15:13:30+08:00 ] ::1 /newLife/index.php/Home/Note/noteshow/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003328s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0196s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0223s ]
+SQL: SHOW COLUMNS FROM `tb_comment` [ RunTime:0.0205s ]
+SQL: SELECT * FROM `tb_comment` WHERE ( noteID='4' )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tb_note` WHERE ( ID=4 ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: UPDATE `tb_note` SET `author`='Rumi',`title`='女足世界杯玩饥饿营销:场内空荡荡 球迷却买不到票',`content`='2019年女足世界杯小组赛已经全部结束，但在多场小组赛中球场看台出现大面积空位置。而这不仅仅是因为女足比赛对球迷吸引力更弱，还有女足世界杯票务系统方面的问题。国际足联主席因凡蒂诺此前曾宣布，在本届女足世界杯全部52场比赛中，已经有20场比赛的球票全部售完。但随后遭到媒体质疑，而国际足联之后改口称，只有14场比赛的球票全部售完，显然因凡蒂诺主席之前说了谎。
+
+而在球票并未售完的一些比赛中，却有球迷们买不到票。因为女足世界杯网上订票只能使用赞助商VISA的卡来支付，而且票务系统总是显示只有少量余票却有很多啊实打实大苏打',`date`='2019-06-23',`pageview`='93',`replysum`='10',`top`='1',`hot`='1',`origin`='1' WHERE ( ID=4 ) [ RunTime:0.0042s ]
+SQL: SELECT * FROM `tb_user` WHERE ( username='Rumi' ) LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000728s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002967s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071740s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002834s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002771s ]
+
+[ 2020-01-03T15:13:34+08:00 ] ::1 /newLife/index.php/Home/Index/personalshow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001185s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0077s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `tb_user` WHERE ( UID=18 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_note` WHERE ( author='Rumi' )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015692s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015829s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000904s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001793s ]
+
+[ 2020-01-03T15:13:34+08:00 ] ::1 /newLife/index.php/Home/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002354s ]
+NOTIC: [8] Use of undefined constant fontSize - assumed 'fontSize' C:\wamp\www\newLife\Application\Home\Controller\IndexController.class.php 第 87 行.
+NOTIC: [8] Use of undefined constant length - assumed 'length' C:\wamp\www\newLife\Application\Home\Controller\IndexController.class.php 第 88 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002018s ]
+
+[ 2020-01-03T15:13:57+08:00 ] ::1 /newLife/index.php/Home/Note/noteshow/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001176s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `tb_comment` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `tb_comment` WHERE ( noteID='4' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_note` WHERE ( ID=4 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `tb_note` SET `author`='Rumi',`title`='女足世界杯玩饥饿营销:场内空荡荡 球迷却买不到票',`content`='2019年女足世界杯小组赛已经全部结束，但在多场小组赛中球场看台出现大面积空位置。而这不仅仅是因为女足比赛对球迷吸引力更弱，还有女足世界杯票务系统方面的问题。国际足联主席因凡蒂诺此前曾宣布，在本届女足世界杯全部52场比赛中，已经有20场比赛的球票全部售完。但随后遭到媒体质疑，而国际足联之后改口称，只有14场比赛的球票全部售完，显然因凡蒂诺主席之前说了谎。
+
+而在球票并未售完的一些比赛中，却有球迷们买不到票。因为女足世界杯网上订票只能使用赞助商VISA的卡来支付，而且票务系统总是显示只有少量余票却有很多啊实打实大苏打',`date`='2019-06-23',`pageview`='94',`replysum`='10',`top`='1',`hot`='1',`origin`='1' WHERE ( ID=4 ) [ RunTime:0.0028s ]
+SQL: SELECT * FROM `tb_user` WHERE ( username='Rumi' ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018083s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001533s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001580s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001737s ]
+
+[ 2020-01-03T15:14:07+08:00 ] ::1 /newLife/index.php/Home/Index/personalshow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002667s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0208s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0209s ]
+SQL: SELECT * FROM `tb_user` WHERE ( UID=18 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tb_note` WHERE ( author='Rumi' )  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000246s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000620s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048109s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048436s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004617s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009213s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009989s ]
+
+[ 2020-01-03T15:14:07+08:00 ] ::1 /newLife/index.php/Home/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003754s ]
+NOTIC: [8] Use of undefined constant fontSize - assumed 'fontSize' C:\wamp\www\newLife\Application\Home\Controller\IndexController.class.php 第 87 行.
+NOTIC: [8] Use of undefined constant length - assumed 'length' C:\wamp\www\newLife\Application\Home\Controller\IndexController.class.php 第 88 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001414s ]
+
+[ 2020-01-03T15:14:12+08:00 ] ::1 /newLife/index.php/Home/Note/noteshow/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001847s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0072s ]
+SQL: SHOW COLUMNS FROM `tb_comment` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `tb_comment` WHERE ( noteID='8' )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tb_note` WHERE ( ID=8 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: UPDATE `tb_note` SET `author`='Rumi',`title`='Giao哥直播回应结婚热议：我算什么货色能上热搜',`content`='        新浪娱乐讯 30日，知名网红Giao哥在朋友圈中晒出了三张婚纱店里试穿西装婚纱的照片，并发了三个开心的表情，对此#Giao哥结婚#话题瞬间霸占微博热搜，持续了一晚始终保持高位。
+        对此，本尊很快在直播中回应了该消息，反问网友是谁曝光的，还调侃：“我算什么货色能上热搜！”
+        Giao哥凭“一给我哩giaogiao”的招牌台词，从2017年以来活跃于短视频平台。',`date`='2020-01-02',`pageview`='2',`replysum`='0',`top`='1',`hot`='0',`origin`='0' WHERE ( ID=8 ) [ RunTime:0.0063s ]
+SQL: SELECT * FROM `tb_user` WHERE ( username='Rumi' ) LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000417s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000905s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044981s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045381s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004583s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005172s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003263s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003626s ]
+
+[ 2020-01-03T15:14:15+08:00 ] ::1 /newLife/index.php/Home/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001378s ]
+NOTIC: [8] Use of undefined constant fontSize - assumed 'fontSize' C:\wamp\www\newLife\Application\Home\Controller\IndexController.class.php 第 87 行.
+NOTIC: [8] Use of undefined constant length - assumed 'length' C:\wamp\www\newLife\Application\Home\Controller\IndexController.class.php 第 88 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001544s ]
+
+[ 2020-01-03T15:58:16+08:00 ] ::1 /newLife/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003304s ]
+SQL: SHOW COLUMNS FROM `tb_forum` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `tb_forum`  [ RunTime:0.0004s ]
+SQL: SELECT SUM(pageview) AS tp_sum FROM `tb_note` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_note` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` WHERE ( hot=1 ) LIMIT 0,5   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_note` ORDER BY date desc LIMIT 0,5   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_note` ORDER BY replysum desc LIMIT 0,5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_note` ORDER BY pageview desc LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` WHERE ( origin=1 ) LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000351s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000662s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032428s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002845s ]
+
+[ 2020-01-03T17:04:13+08:00 ] ::1 /newLife/index.php/Home/Note/forumshow/forumID/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002430s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `tb_note` WHERE `forumID` = 1 AND `top` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_note` WHERE `forumID` = 1 AND `top` = 0  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000325s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018727s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018899s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001635s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001799s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002494s ]
+
+[ 2020-01-03T17:05:23+08:00 ] ::1 /newLife/index.php/Home/Note/noteshow/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002950s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0229s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0166s ]
+SQL: SHOW COLUMNS FROM `tb_comment` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `tb_comment` WHERE ( noteID='4' )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `tb_note` WHERE ( ID=4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `tb_note` SET `author`='Rumi',`title`='女足世界杯玩饥饿营销:场内空荡荡 球迷却买不到票',`content`='2019年女足世界杯小组赛已经全部结束，但在多场小组赛中球场看台出现大面积空位置。而这不仅仅是因为女足比赛对球迷吸引力更弱，还有女足世界杯票务系统方面的问题。国际足联主席因凡蒂诺此前曾宣布，在本届女足世界杯全部52场比赛中，已经有20场比赛的球票全部售完。但随后遭到媒体质疑，而国际足联之后改口称，只有14场比赛的球票全部售完，显然因凡蒂诺主席之前说了谎。
+
+而在球票并未售完的一些比赛中，却有球迷们买不到票。因为女足世界杯网上订票只能使用赞助商VISA的卡来支付，而且票务系统总是显示只有少量余票却有很多啊实打实大苏打',`date`='2019-06-23',`pageview`='95',`replysum`='10',`top`='1',`hot`='1',`origin`='1' WHERE ( ID=4 ) [ RunTime:0.0387s ]
+SQL: SELECT * FROM `tb_user` WHERE ( username='Rumi' ) LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000338s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000739s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065646s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002784s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002963s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003209s ]
+
+[ 2020-01-03T17:05:28+08:00 ] ::1 /newLife/index.php/Home/Note/noteshow/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001169s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0077s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `tb_comment` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tb_comment` WHERE ( noteID='8' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_note` WHERE ( ID=8 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `tb_note` SET `author`='Rumi',`title`='Giao哥直播回应结婚热议：我算什么货色能上热搜',`content`='        新浪娱乐讯 30日，知名网红Giao哥在朋友圈中晒出了三张婚纱店里试穿西装婚纱的照片，并发了三个开心的表情，对此#Giao哥结婚#话题瞬间霸占微博热搜，持续了一晚始终保持高位。
+        对此，本尊很快在直播中回应了该消息，反问网友是谁曝光的，还调侃：“我算什么货色能上热搜！”
+        Giao哥凭“一给我哩giaogiao”的招牌台词，从2017年以来活跃于短视频平台。',`date`='2020-01-02',`pageview`='3',`replysum`='0',`top`='1',`hot`='0',`origin`='0' WHERE ( ID=8 ) [ RunTime:0.0029s ]
+SQL: SELECT * FROM `tb_user` WHERE ( username='Rumi' ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000448s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021818s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001511s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001729s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001856s ]
+
+[ 2020-01-03T17:05:33+08:00 ] ::1 /newLife/index.php/Home/Note/forumshow/forumID/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001468s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `tb_note` WHERE `forumID` = 2 AND `top` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_note` WHERE `forumID` = 2 AND `top` = 0  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015752s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001490s ]
+
+[ 2020-01-03T17:05:36+08:00 ] ::1 /newLife/index.php/Home/Note/forumshow/forumID/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001141s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `tb_note` WHERE `forumID` = 1 AND `top` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_note` WHERE `forumID` = 1 AND `top` = 0  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028948s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029165s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001522s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001748s ]
+
+[ 2020-01-03T17:05:37+08:00 ] ::1 /newLife/index.php/Home/Note/noteshow/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `tb_comment` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `tb_comment` WHERE ( noteID='2' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_note` WHERE ( ID=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `tb_note` SET `author`='Lili',`title`='普京：美国打压华为被称作数字时代首场科技战争',`content`='当地时间6月7日，出席第23届圣彼得堡国际经济论坛的俄总统普京批评美国打压华为。普京以华为为例称，围绕华为的情况，他们不仅试图对它进行排挤，更想粗暴无礼地把它挤出全球市场，“在某些圈子里，这已经被称作正在到来的数字时代的第一场科技战争”。',`date`='2019-05-01',`pageview`='9',`replysum`='3',`top`='1',`hot`='0',`origin`='0' WHERE ( ID=2 ) [ RunTime:0.0043s ]
+SQL: SELECT * FROM `tb_user` WHERE ( username='Lili' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014269s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000894s ]
+
+[ 2020-01-03T17:27:12+08:00 ] ::1 /newLife/index.php/Home/Index/personalshow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002066s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0077s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tb_user` WHERE ( UID=18 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_note` WHERE ( author='Rumi' )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000208s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000409s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022783s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022934s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001346s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001462s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003064s ]
+
+[ 2020-01-03T17:27:12+08:00 ] ::1 /newLife/index.php/Home/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002744s ]
+NOTIC: [8] Use of undefined constant fontSize - assumed 'fontSize' C:\wamp\www\newLife\Application\Home\Controller\IndexController.class.php 第 87 行.
+NOTIC: [8] Use of undefined constant length - assumed 'length' C:\wamp\www\newLife\Application\Home\Controller\IndexController.class.php 第 88 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001698s ]
+
+[ 2020-01-03T17:27:14+08:00 ] ::1 /newLife/index.php/Home/Index/exitlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000304s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016180s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002023s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001783s ]
+
+[ 2020-01-03T17:27:16+08:00 ] ::1 /newLife/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001938s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004572s ]
+SQL: SHOW COLUMNS FROM `tb_forum` [ RunTime:0.0258s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0279s ]
+SQL: SELECT * FROM `tb_forum`  [ RunTime:0.0012s ]
+SQL: SELECT SUM(pageview) AS tp_sum FROM `tb_note` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_note` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tb_note` WHERE ( hot=1 ) LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `tb_note` ORDER BY date desc LIMIT 0,5   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `tb_note` ORDER BY replysum desc LIMIT 0,5   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `tb_note` ORDER BY pageview desc LIMIT 0,5   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `tb_note` WHERE ( origin=1 ) LIMIT 0,5   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000512s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000875s ]
+NOTIC: [8] Undefined index: username C:\wamp\www\newLife\Application\Runtime\Cache\Home\63c81f5b5f7b215605816ff2bde5d1bc.php 第 98 行.
+NOTIC: [8] Undefined index: username C:\wamp\www\newLife\Application\Runtime\Cache\Home\63c81f5b5f7b215605816ff2bde5d1bc.php 第 106 行.
+NOTIC: [8] Undefined index: username C:\wamp\www\newLife\Application\Runtime\Cache\Home\63c81f5b5f7b215605816ff2bde5d1bc.php 第 111 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.104099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.105539s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004912s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005323s ]
+
+[ 2020-01-03T17:27:21+08:00 ] ::1 /newLife/index.php/Home/Index/loginshow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000265s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011822s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011957s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001590s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001766s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001220s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001370s ]
+
+[ 2020-01-03T17:28:41+08:00 ] ::1 /newLife/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001698s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `tb_user` WHERE `username` = 'Rumi' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013079s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001554s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001668s ]
+
+[ 2020-01-03T17:28:42+08:00 ] ::1 /newLife/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004956s ]
+SQL: SHOW COLUMNS FROM `tb_forum` [ RunTime:0.0233s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0274s ]
+SQL: SELECT * FROM `tb_forum`  [ RunTime:0.0011s ]
+SQL: SELECT SUM(pageview) AS tp_sum FROM `tb_note` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_note` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_note` WHERE ( hot=1 ) LIMIT 0,5   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `tb_note` ORDER BY date desc LIMIT 0,5   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `tb_note` ORDER BY replysum desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_note` ORDER BY pageview desc LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_note` WHERE ( origin=1 ) LIMIT 0,5   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000980s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001627s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.102857s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.103504s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004629s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007117s ]
+
+[ 2020-01-03T17:29:00+08:00 ] ::1 /newLife/index.php/Home/Index/exitlogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000322s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014537s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014697s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001690s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001882s ]
+
+[ 2020-01-03T17:29:01+08:00 ] ::1 /newLife/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002362s ]
+SQL: SHOW COLUMNS FROM `tb_forum` [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0157s ]
+SQL: SELECT * FROM `tb_forum`  [ RunTime:0.0007s ]
+SQL: SELECT SUM(pageview) AS tp_sum FROM `tb_note` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_note` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_note` WHERE ( hot=1 ) LIMIT 0,5   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_note` ORDER BY date desc LIMIT 0,5   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_note` ORDER BY replysum desc LIMIT 0,5   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_note` ORDER BY pageview desc LIMIT 0,5   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_note` WHERE ( origin=1 ) LIMIT 0,5   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000362s ]
+NOTIC: [8] Undefined index: username C:\wamp\www\newLife\Application\Runtime\Cache\Home\63c81f5b5f7b215605816ff2bde5d1bc.php 第 98 行.
+NOTIC: [8] Undefined index: username C:\wamp\www\newLife\Application\Runtime\Cache\Home\63c81f5b5f7b215605816ff2bde5d1bc.php 第 106 行.
+NOTIC: [8] Undefined index: username C:\wamp\www\newLife\Application\Runtime\Cache\Home\63c81f5b5f7b215605816ff2bde5d1bc.php 第 111 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050324s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050575s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001586s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002146s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002340s ]
+
+[ 2020-01-03T17:29:04+08:00 ] ::1 /newLife/index.php/Home/Index/registershow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001635s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000325s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016166s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001840s ]
+
+[ 2020-01-03T17:29:04+08:00 ] ::1 /newLife/index.php/Home/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001513s ]
+NOTIC: [8] Use of undefined constant fontSize - assumed 'fontSize' C:\wamp\www\newLife\Application\Home\Controller\IndexController.class.php 第 87 行.
+NOTIC: [8] Use of undefined constant length - assumed 'length' C:\wamp\www\newLife\Application\Home\Controller\IndexController.class.php 第 88 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001152s ]
+
+[ 2020-01-03T17:29:54+08:00 ] ::1 /newLife/index.php/Home/Index/loginshow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002941s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000386s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017409s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017607s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002646s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002622s ]
+
+[ 2020-01-03T17:31:24+08:00 ] ::1 /newLife/index.php/Home/Note/forumshow/forumID/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000914s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001888s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `tb_note` WHERE `forumID` = 1 AND `top` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_note` WHERE `forumID` = 1 AND `top` = 0  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8] Undefined index: username C:\wamp\www\newLife\Application\Runtime\Cache\Home\35607b4604ad1501d024c8ac59b8f683.php 第 14 行.
+NOTIC: [8] Undefined index: username C:\wamp\www\newLife\Application\Runtime\Cache\Home\35607b4604ad1501d024c8ac59b8f683.php 第 22 行.
+NOTIC: [8] Undefined index: username C:\wamp\www\newLife\Application\Runtime\Cache\Home\35607b4604ad1501d024c8ac59b8f683.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014467s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001570s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001847s ]
+
+[ 2020-01-03T17:33:00+08:00 ] ::1 /newLife/index.php/Home/Note/noteshow/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001733s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0072s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `tb_comment` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `tb_comment` WHERE ( noteID='8' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_note` WHERE ( ID=8 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `tb_note` SET `author`='Rumi',`title`='Giao哥直播回应结婚热议：我算什么货色能上热搜',`content`='        新浪娱乐讯 30日，知名网红Giao哥在朋友圈中晒出了三张婚纱店里试穿西装婚纱的照片，并发了三个开心的表情，对此#Giao哥结婚#话题瞬间霸占微博热搜，持续了一晚始终保持高位。
+        对此，本尊很快在直播中回应了该消息，反问网友是谁曝光的，还调侃：“我算什么货色能上热搜！”
+        Giao哥凭“一给我哩giaogiao”的招牌台词，从2017年以来活跃于短视频平台。',`date`='2020-01-02',`pageview`='4',`replysum`='0',`top`='1',`hot`='0',`origin`='0' WHERE ( ID=8 ) [ RunTime:0.0055s ]
+SQL: SELECT * FROM `tb_user` WHERE ( username='Rumi' ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000285s ]
+NOTIC: [8] Undefined index: username C:\wamp\www\newLife\Application\Runtime\Cache\Home\ca6524170c25fd003978535065b26557.php 第 21 行.
+NOTIC: [8] Undefined index: username C:\wamp\www\newLife\Application\Runtime\Cache\Home\ca6524170c25fd003978535065b26557.php 第 29 行.
+NOTIC: [8] Undefined index: username C:\wamp\www\newLife\Application\Runtime\Cache\Home\ca6524170c25fd003978535065b26557.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018852s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001309s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001661s ]
+
+[ 2020-01-03T17:33:05+08:00 ] ::1 /newLife/index.php/Home/Note/noteshow/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001483s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `tb_comment` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `tb_comment` WHERE ( noteID='4' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` WHERE ( ID=4 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `tb_note` SET `author`='Rumi',`title`='女足世界杯玩饥饿营销:场内空荡荡 球迷却买不到票',`content`='2019年女足世界杯小组赛已经全部结束，但在多场小组赛中球场看台出现大面积空位置。而这不仅仅是因为女足比赛对球迷吸引力更弱，还有女足世界杯票务系统方面的问题。国际足联主席因凡蒂诺此前曾宣布，在本届女足世界杯全部52场比赛中，已经有20场比赛的球票全部售完。但随后遭到媒体质疑，而国际足联之后改口称，只有14场比赛的球票全部售完，显然因凡蒂诺主席之前说了谎。
+
+而在球票并未售完的一些比赛中，却有球迷们买不到票。因为女足世界杯网上订票只能使用赞助商VISA的卡来支付，而且票务系统总是显示只有少量余票却有很多啊实打实大苏打',`date`='2019-06-23',`pageview`='96',`replysum`='10',`top`='1',`hot`='1',`origin`='1' WHERE ( ID=4 ) [ RunTime:0.0059s ]
+SQL: SELECT * FROM `tb_user` WHERE ( username='Rumi' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+NOTIC: [8] Undefined index: username C:\wamp\www\newLife\Application\Runtime\Cache\Home\ca6524170c25fd003978535065b26557.php 第 21 行.
+NOTIC: [8] Undefined index: username C:\wamp\www\newLife\Application\Runtime\Cache\Home\ca6524170c25fd003978535065b26557.php 第 29 行.
+NOTIC: [8] Undefined index: username C:\wamp\www\newLife\Application\Runtime\Cache\Home\ca6524170c25fd003978535065b26557.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014937s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015108s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000914s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001040s ]
+
+[ 2020-01-03T17:33:47+08:00 ] ::1 /newLife/index.php/Home/Note/searchnote?notetitle=Rumi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002875s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `tb_note` WHERE `title` LIKE '%Rumi%' OR `author` LIKE '%Rumi%'  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+NOTIC: [8] Undefined index: username C:\wamp\www\newLife\Application\Runtime\Cache\Home\db599fcd78f43c6d3410ab32ae4ffa55.php 第 16 行.
+NOTIC: [8] Undefined index: username C:\wamp\www\newLife\Application\Runtime\Cache\Home\db599fcd78f43c6d3410ab32ae4ffa55.php 第 18 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016092s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001968s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001729s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001882s ]
+
+[ 2020-01-03T17:34:24+08:00 ] ::1 /newLife/index.php/Home/Index/registershow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001495s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000506s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019291s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019470s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001516s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002125s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002319s ]
+
+[ 2020-01-03T17:34:25+08:00 ] ::1 /newLife/index.php/Home/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000149s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002418s ]
+NOTIC: [8] Use of undefined constant fontSize - assumed 'fontSize' C:\wamp\www\newLife\Application\Home\Controller\IndexController.class.php 第 87 行.
+NOTIC: [8] Use of undefined constant length - assumed 'length' C:\wamp\www\newLife\Application\Home\Controller\IndexController.class.php 第 88 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001619s ]
+
+[ 2020-01-03T17:34:30+08:00 ] ::1 /newLife/index.php/Home/Index/loginshow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001008s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001871s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016655s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016856s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001481s ]
+
+[ 2020-01-03T17:34:37+08:00 ] ::1 /newLife/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001369s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `tb_user` WHERE `username` = 'Rumi' AND `password` = '7cec85c75537840dad40251576e5b757' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017885s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001636s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001880s ]
+
+[ 2020-01-03T17:34:43+08:00 ] ::1 /newLife/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001409s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `tb_user` WHERE `username` = 'Rumi' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011590s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011777s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000994s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000979s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001090s ]
+
+[ 2020-01-03T17:34:45+08:00 ] ::1 /newLife/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002905s ]
+SQL: SHOW COLUMNS FROM `tb_forum` [ RunTime:0.0136s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `tb_forum`  [ RunTime:0.0007s ]
+SQL: SELECT SUM(pageview) AS tp_sum FROM `tb_note` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_note` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tb_note` WHERE ( hot=1 ) LIMIT 0,5   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tb_note` ORDER BY date desc LIMIT 0,5   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_note` ORDER BY replysum desc LIMIT 0,5   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_note` ORDER BY pageview desc LIMIT 0,5   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tb_note` WHERE ( origin=1 ) LIMIT 0,5   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000264s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000464s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048656s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001656s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002108s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002564s ]
+
+[ 2020-01-03T17:34:46+08:00 ] ::1 /newLife/index.php/Home/Index/personalshow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001719s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `tb_user` WHERE ( UID=18 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_note` WHERE ( author='Rumi' )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016537s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016730s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001827s ]
+
+[ 2020-01-03T17:34:46+08:00 ] ::1 /newLife/index.php/Home/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000806s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002227s ]
+NOTIC: [8] Use of undefined constant fontSize - assumed 'fontSize' C:\wamp\www\newLife\Application\Home\Controller\IndexController.class.php 第 87 行.
+NOTIC: [8] Use of undefined constant length - assumed 'length' C:\wamp\www\newLife\Application\Home\Controller\IndexController.class.php 第 88 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002075s ]
+
+[ 2020-01-03T17:34:49+08:00 ] ::1 /newLife/index.php/Home/Note/noteshow/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `tb_comment` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tb_comment` WHERE ( noteID='1' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tb_note` WHERE ( ID=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `tb_note` SET `author`='Rumi',`title`='巴西副总统：5G建设不会排除华为 巴西需要它的技术',`content`='【CNMO新闻】虽说华为被美国政府打压，不过还是有很多国家愿意与华为展开合作。近日有外媒报道称，巴西副总统Hamilton Mourao表示巴西政府不会排除华为在该国运营5G移动通信网络。同时这位副总统还声称，巴西政府对中国公司没有任何不信任，巴西需要华为提供的电信技术。',`date`='2019-06-03',`pageview`='45',`replysum`='3',`top`='1',`hot`='1',`origin`='1' WHERE ( ID=1 ) [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tb_user` WHERE ( username='Rumi' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013731s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000924s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001024s ]
+
+[ 2020-01-03T17:54:48+08:00 ] ::1 /newLife/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001743s ]
+SQL: SHOW COLUMNS FROM `tb_forum` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `tb_note` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `tb_forum`  [ RunTime:0.0003s ]
+SQL: SELECT SUM(pageview) AS tp_sum FROM `tb_note` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tb_note` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tb_note` WHERE ( hot=1 ) LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` ORDER BY date desc LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` ORDER BY replysum desc LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` ORDER BY pageview desc LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tb_note` WHERE ( origin=1 ) LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023021s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023134s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001003s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001807s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002065s ]
+

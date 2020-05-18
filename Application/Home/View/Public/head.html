@@ -1,0 +1,17 @@
+<div style="background:url(__PUBLIC__/HOME/images/head.jpg);background-size: 100%;">
+<div class="head"><div class="nav"><p>{$_SESSION['username']}欢迎来到看百味论坛</p>
+<li style="margin:10px 20px; "><img src="__PUBLIC__/HOME/images/gz.jpg" width="18px" height="18px">关注百味
+	<ul class="sub-nav" style="display: none;">
+		<a href="#"><li><img src="__PUBLIC__/HOME/images/timg.jpg" width="20px" height="20px">官方微博</li></a>
+		<a href="#"><li><img src="__PUBLIC__/HOME/images/wxlogin.jpg" width="20px" height="20px">官方微信</li></a>
+	</ul>
+</li>
+<div class="righthead">
+	<if condition="strtoupper($_SESSION['username']) eq null">
+	<a href="__APP__/Home/Index/loginshow"><img src="__PUBLIC__/Home/images/icon/0.jpg" width="40px" height="40px" title="点击登录"/></a><a href="__APP__/Home/Index/registershow">注册</a><a href="__APP__/Home/Index/loginshow"><img src="__PUBLIC__/HOME/images/qqlogin.jpg" width="22px" height="10px">QQ登录</a><a href="__APP__/Home/Index/registershow"><img src="__PUBLIC__/HOME/images/timg.jpg" width="22px" height="10px"/>微博登陆</a><else />
+	<a href="__APP__/Home/Index/personalshow"><img src="__PUBLIC__{$_SESSION['icon']}" width="40px" height="40px" title="进入个人页面"/></a><a href="__APP__/Home/Index/exitlogin">注销</a></if></div>
+</div>
+</div>
+<div class="bbsheader"><form method="get" class="searchform" action="__APP__/Home/Note/searchnote"><a href="__APP__/Home/Index/index"><img src="__PUBLIC__/HOME/images/logo.jpg"  class="logo"></a><input name="notetitle" class="searchtext" type="text" id="serch" onfocus="bc()" onblur="lk()" placeholder="搜索帖子"><button type="submit" class="search-submit" /></form></div>
+<if condition="strtoupper($_SESSION['username']) eq null"><a href="__APP__/Home/Index/loginshow" style="position: absolute;top:45px;right:250px;margin-left: 50px;z-index: 1;"><img src="__PUBLIC__/Home/images/fabu.jpg" width="70" height="80" title="发布帖子" ></a><else /><a href="__APP__/Home/Note/fabu" style="position: absolute;top:45px;right:250px;margin-left: 50px;z-index: 1;width:100px;"><img src="__PUBLIC__/Home/images/fabu.jpg" width="70" height="80" title="发布帖子" ></a></if>
+</div>

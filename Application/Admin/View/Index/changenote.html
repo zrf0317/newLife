@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>填加类别</title>
+<link href="__PUBLIC__/Admin/css/index.css" rel="stylesheet" type="text/css" />
+</head>
+<script language="javascript">
+function lbyz(fom){
+	if(fom.mc.value==''){
+		alert('请输入类别名称');
+		fom.mc.select();
+		return false;
+		}
+	if(fom.ms.value==''){
+		alert('请输入类别描述');
+		fom.ms.select();
+		return false;
+		}
+	}
+</script>
+<body>
+<include file="Public/head"/>
+<div id="right" >
+  <p style="background:#2c7e8a; padding-left:10px; color:#FFF;">您当前的位置：帖子管理－＞填加帖子</p>
+  <form action="__APP__/Admin/Index/notechange/noteid/{$note.id}" method="post" onsubmit="return lbyz(this)" >
+    <table width="670" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td  bgcolor="#666666"><table width="670" cellspacing="1" border="0px">
+            <tr>
+              <td width="103"  bgcolor="#FFFFFF"><div>帖子标题:</div></td>
+              <td width="560"  bgcolor="#FFFFFF"><input type="text" name="title" value="{$note.title}"/></td>
+            </tr> 
+            <tr>
+              <td width="103"  bgcolor="#FFFFFF"><div>板块:</div></td>
+              <td width="560"  bgcolor="#FFFFFF"><select name="forumID"><volist name="forumname" id="forumname"><if condition="intval($forumname.id) eq intval($note.forumid)"><option value="{$forumname.id}" selected>{$forumname.name}</option><else /><option value="{$forumname.id}">{$forumname.name}</option></if></volist></select></td>
+			  </tr>
+            <tr>
+             <td width="103"  bgcolor="#FFFFFF"><div>帖子内容:</div></td>
+              <td width="560"  bgcolor="#FFFFFF"><textarea name="content" cols="" rows="" style=" margin-left:10px; width:350px; height:200px;">{$note.content}</textarea></td>
+            </tr>
+			<tr>
+              <td width="103"  bgcolor="#FFFFFF"><div>是否置顶:</div></td>
+              <td width="560"  bgcolor="#FFFFFF"><select name="top"><if condition="$note.top eq 1"><option value="1" selected>是</option><option value="2" >否</option><else /><option value="1" >是</option><option value="2" selected>否</option></if></select></td>
+			  </tr>
+             <tr>
+              <td colspan="4"  bgcolor="#FFFFFF"><input type="submit" name="ok" value="修改帖子&nbsp;" style="width:55px; height:30px;" /></td>
+            </tr>         
+          </table></td>
+      </tr>
+    </table>    
+  </form>
+</div>
+<div id="footer">
+ <p>地址：北京市朝阳区***路***号 版权所有：北京天天书屋有限公司</p>
+  <p>互联网信息服务备案编号：京ICP备06001111号  技术支持：计算机信息工程系</p>
+</div>
+</body>
+</html>

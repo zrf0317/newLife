@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/HOME/css/bbs.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/HOME/css/bootstrap.css">
+<script src="__PUBLIC__/HOME/js/jquery.min.js" type="text/javascript"></script>
+</head>
+
+<body style="background-color:#CFF">
+<div>
+<include file="Public/head"/>
+<div class="bbsbody">
+	<table><volist name="topnote" id="topnote">
+	<tr style="border-bottom: 1px dotted #706D6D"><td style="font-weight: bold;display: inline;"><span style="color: #AB0002;font-size: 4px;display: inline;margin-right: 5px;">置顶</span><a href="__APP__/Home/Note/noteshow/id/{$topnote.id}" style="color: #000000">{$topnote.title}</a></td><td style="color: #707070;font-size: 2px;">发布时间:{$topnote.date}</td></tr></volist>
+	<volist name="note" id="note">
+	<tr style="border-bottom: 1px dotted #706D6D"><td style="font-weight: bold;display: inline;"><a href="__APP__/Home/Note/noteshow/id/{$note.id}" style="color: #000000">{$note.title}</a></td><td style="color: #707070;font-size: 2px;">发布时间:{$note.date}</td></tr></volist>
+	</table>
+	</div>
+<include file="Public/footer"/>
+</div>
+
+</body>
+</html>

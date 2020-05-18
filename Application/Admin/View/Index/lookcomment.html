@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html;  charset=utf-8" />
+<title>查看商品</title>
+<link href="__PUBLIC__/Admin/css/index.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<include file="Public/head"/>
+<div id="right" >
+  <p style="background:#2c7e8a; padding-left:10px; color:#FFF;">您当前的位置：用户管理－＞修改用户信息</p>
+ 
+  <form action="#" method="post" >
+    <span style="text-align:right; padding-right:10px;">
+    
+    </span>
+    <table width="670" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td  bgcolor="#666666"><table width="670" cellspacing="1" border="0px">
+            <tr>
+              <td width="33"  bgcolor="#FFFFFF"><div>复选</div></td>
+              <td width="33"  bgcolor="#FFFFFF"><div>帖子ID</div></td>
+              <td width="115"  bgcolor="#FFFFFF"><div>评论用户</div></td>
+              <td width="59"  bgcolor="#FFFFFF"><div>评论内容</div></td>
+              <td width="77"  bgcolor="#FFFFFF"><div>评论日期</div></td>
+              <td width="77"  bgcolor="#FFFFFF"><div>回复用户ID</div></td>
+              <td width="126"  bgcolor="#FFFFFF"><div>操作</div></td>
+            </tr>
+			<volist name="comment" id="comment">
+            <tr>
+              <td  bgcolor="#FFFFFF" style="text-align:center;"><input type="checkbox" name="1" value="1" /></td>
+              <td bgcolor="#FFFFFF"style="text-align:center;">{$comment.noteid}</td>
+              <td bgcolor="#FFFFFF"style="text-align:center;">{$comment.username}</td>
+              <td bgcolor="#FFFFFF"style="text-align:center;">{$comment.content}</td>
+              <td bgcolor="#FFFFFF"style="text-align:center;">{$comment.date}</td>
+			  <td bgcolor="#FFFFFF"style="text-align:center;">{$comment.replyid}</td>
+              <td bgcolor="#FFFFFF" style="text-align:center;"><a href= "__APP__/Admin/Index/deletecomment/commentid/{$comment.id}">删除</a></td>
+            </tr></volist>
+          </table></td>
+      </tr>
+     <td><table width="670" height="25" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+
+    <td  style="text-align:right; padding-right:10px;"> 
+	<input type="submit" value="删除选择项" class="buttoncss" style="margin-right:255px;" >
+	  
+      
+		 </td>   <td  style="text-align:right; padding-right:10px;"> 
+本站共有 1 条记录 每页显示 7 条 第 1 页/共 1 页
+	  
+      
+		 </td>
+  </tr>
+</table></td>
+    </table>
+   
+ 
+  <p style=" text-align:right; margin-right:5px;">  
+
+</p>
+  </form></div>
+  <div id="footer">
+  <p>地址：北京市朝阳区***路***号 版权所有：北京天天书屋有限公司</p>
+  <p>互联网信息服务备案编号：京ICP备06001111号  技术支持：计算机信息工程系</p>
+</div></body>
+
+</html>
